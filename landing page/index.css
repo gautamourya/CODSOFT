@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+    background-color: #f5f7f8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5%;
+    background: white;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #666;
+ transition: all 0.3s ease-in-out;
+}
+
+.nav-links a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+.contact-btn {
+    background: #9C7F53;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.contact-btn:hover{
+    background: #76603e;
+    transform: translateY(-2px);
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 5%;
+    gap: 4rem;
+}
+
+.book-cover {
+    width: 287px;
+    height: 438px;
+    background: #F5F7F8;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background-image: url(book.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+    
+}
+.book-cover:hover{
+    transform: scale(1.1);
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.price-btn {
+    display: inline-block;
+    background: #9C7F53;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.price-btn:hover{
+    background: #76603e;
+    transform: translateY(-2px);
+    
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 2rem auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.testimonial:hover{
+    transform: translateX(25px);
+}
+
+.testimonial .testimonial-avatar2 {
+    width: 13rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: #ddd;
+    background-image: url(review2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 5px 5px 5px 5px;
+}
+.testimonial .testimonial-avatar1 {
+    width: 13rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: #ddd;
+    background-image: url(review1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 5px 5px 5px 5px;
+}
+
+.features {
+    padding: 4rem 5%;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.feature-card h3{
+    margin-bottom: 1rem;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.feature-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.feature-card:hover{
+    transform: translateY(-20px);
+}
+
+.cta {
+    background: #614f34;
+
+    color: white;
+    padding: 4rem 5%;
+    text-align: center;
+}
+
+.cta h2 {
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background: #614f34;
+    color: white;
+    padding: 4rem 5%;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.footer-grid h3 {
+    margin-bottom: 1rem;
+}
+
+.footer-grid ul {
+    list-style: none;
+}
+
+.footer-grid ul li {
+    margin-bottom: 0.5rem;
+}
+
+
+
+.footer-grid a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    padding: 2rem 0;
+    color: rgba(255,255,255,0.8);
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: 2rem;
+}
